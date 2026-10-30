@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Room Booking</title>
+ <style>
+        .booking-form {
+            border: 2px solid black;
+            width: 450px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+</style>
+
+</head>
+<body>
+
+    <div class="booking-form">
+
+    <h1 align="center">Hotel Room Booking Form</h1>
+
+    <form action="#" method="post" align="center">
+
+        <!-- Name -->
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+        <br><br>
+
+        <!--Emaill-->
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required
+        <br><br>
+
+        <!--Phone-->
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" required>
+        <br><br>
+
+        <!--Check-in Date-->
+        <label for="checkin">Check-in-Date:</label>
+        <input type="date" id="checkin" name="checkin" required>
+        <br><br>
+
+        <!--Check-out Date -->
+        <label for="checkout">Check-out-Date:</label>
+        <input type="date" id="checkout" name="checkout" required>
+        <br><br>
+
+        <!--Room Type-->
+        <label for="room">Room Type</label>
+        <select id="room" name="room">
+            <option>Single Room</option>
+            <option>Double Room</option>
+            <option>Deluxe Room</option>
+        </select>
+        <br><br>
+
+        <!--Number of Guests-->
+        <label for="guests">Number of Guest:</label>
+        <input type="number" id="guests" name="guests min="1" required>
+        <br><br>
+
+        <!--Special Request-->
+        <label for="request">Special Requests:</label>
+        <br>
+        <textarea id="request" name="request" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <!--Buttons-->
+        <input type="submit" value="Book Now">
+        <input type="reset" value="Reset Form">
+        </form>
+
+        </body>
+        </html>
